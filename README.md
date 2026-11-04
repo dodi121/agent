@@ -4,8 +4,7 @@
 
 ## Install
 ```
-unzip hermes-nexus-40.zip
-cd hermes-nexus-40
+
 bash install.sh
 hermes skills list
 hermes
