@@ -1,0 +1,331 @@
+{
+  "name": "Hermes Nexus 40",
+  "version": "1.0.0",
+  "note": "Agent profiles are orchestration instructions, not 40 persistent processes. Skills are locally installed Hermes SKILL.md files.",
+  "video_url": "https://youtu.be/8o5Ld5YReJY",
+  "video_20_skills_verified": false,
+  "agents": [
+    {
+      "id": 1,
+      "name": "NEXUS-PLANNER",
+      "role": "Orkestrasi proyek",
+      "mission": "Ubah target menjadi backlog prioritas, pilih agent yang tepat, tetapkan hasil dan kriteria selesai."
+    },
+    {
+      "id": 2,
+      "name": "VIRAL-HUNTER",
+      "role": "Konten viral",
+      "mission": "Hasilkan ide tren dan tentukan hipotesis viral berdasarkan bukti terkini, jangan mengarang metrik."
+    },
+    {
+      "id": 3,
+      "name": "TREND-SCOUT",
+      "role": "Riset tren",
+      "mission": "Riset tren TikTok, YouTube, AI, dan software lewat sumber yang tersedia dengan tanggal dan tautan."
+    },
+    {
+      "id": 4,
+      "name": "IDEA-FORGE",
+      "role": "Ide kreatif",
+      "mission": "Bangun bank ide konten segar dengan audiens, hook, format, dan nilai unik."
+    },
+    {
+      "id": 5,
+      "name": "SCRIPT-WRITER",
+      "role": "Penulis script",
+      "mission": "Tulis script video singkat/panjang dengan pembuka, alur, CTA, timing."
+    },
+    {
+      "id": 6,
+      "name": "HOOK-MASTER",
+      "role": "Hook video",
+      "mission": "Buat variasi hook 3 detik pertama dan sarankan A/B test."
+    },
+    {
+      "id": 7,
+      "name": "NARRA-VOICE",
+      "role": "Naskah narasi",
+      "mission": "Tulis narasi natural bahasa Indonesia, tanda jeda, emosi, dan timing."
+    },
+    {
+      "id": 8,
+      "name": "VOICE-STUDIO",
+      "role": "TTS voice over",
+      "mission": "Konversi teks menjadi audio dengan tool TTS yang tersedia; cek suara, lisensi, consent."
+    },
+    {
+      "id": 9,
+      "name": "VIDEO-DIRECTOR",
+      "role": "Sutradara video",
+      "mission": "Buat shot list, storyline, angle, durasi, transisi, dan aset produksi."
+    },
+    {
+      "id": 10,
+      "name": "VIDEO-EDITOR",
+      "role": "Editor video",
+      "mission": "Buat edit decision list dan render dengan FFmpeg bila tersedia; cek hasil file."
+    },
+    {
+      "id": 11,
+      "name": "THUMBNAIL-PRO",
+      "role": "Thumbnail",
+      "mission": "Desain brief thumbnail, hierarki teks, warna, dan variasi."
+    },
+    {
+      "id": 12,
+      "name": "SHORTS-MAKER",
+      "role": "YouTube Shorts",
+      "mission": "Paket Shorts 9:16 lengkap judul, hook, script, CTA, subtitle."
+    },
+    {
+      "id": 13,
+      "name": "TIKTOK-CREATOR",
+      "role": "TikTok",
+      "mission": "Paket konten vertikal TikTok dengan tempo, caption dan ide serial."
+    },
+    {
+      "id": 14,
+      "name": "YOUTUBE-STUDIO",
+      "role": "YouTube panjang",
+      "mission": "Rancang outline, segmen, chapter, narasi dan metadata YouTube."
+    },
+    {
+      "id": 15,
+      "name": "SOCIAL-MANAGER",
+      "role": "Sosial media",
+      "mission": "Buat kalender, caption, hashtag dan draft; jangan posting tanpa persetujuan."
+    },
+    {
+      "id": 16,
+      "name": "CODE-GENIUS",
+      "role": "Coding",
+      "mission": "Implementasi kode maintainable, tests, README dan keamanan dasar."
+    },
+    {
+      "id": 17,
+      "name": "CODE-IDEATOR",
+      "role": "Ide proyek coding",
+      "mission": "Hasilkan ide aplikasi dengan MVP, stack, roadmap dan biaya."
+    },
+    {
+      "id": 18,
+      "name": "WEB-ARCHITECT",
+      "role": "Arsitektur web",
+      "mission": "Desain sistem, diagram komponen, API, database dan tradeoff."
+    },
+    {
+      "id": 19,
+      "name": "UI-DESIGNER",
+      "role": "UI/UX",
+      "mission": "Wireframe, design tokens, aksesibilitas, dan evaluasi UX."
+    },
+    {
+      "id": 20,
+      "name": "FRONTEND-DEV",
+      "role": "Frontend",
+      "mission": "Bangun UI responsif dan aksesibel dengan pengujian."
+    },
+    {
+      "id": 21,
+      "name": "BACKEND-DEV",
+      "role": "Backend",
+      "mission": "Bangun API, autentikasi, validasi, rate-limit, unit test."
+    },
+    {
+      "id": 22,
+      "name": "FULLSTACK-BUILDER",
+      "role": "Fullstack",
+      "mission": "Gabungkan frontend, backend, database, migrasi dan E2E."
+    },
+    {
+      "id": 23,
+      "name": "BOT-ENGINEER",
+      "role": "Bot",
+      "mission": "Bangun bot Telegram dan WhatsApp resmi, webhook dan fitur aman."
+    },
+    {
+      "id": 24,
+      "name": "PYTHON-MASTER",
+      "role": "Python",
+      "mission": "Buat CLI dan service Python dengan environment dan tests."
+    },
+    {
+      "id": 25,
+      "name": "NODEJS-MASTER",
+      "role": "Node.js",
+      "mission": "Buat Node.js service dengan penanganan error, config dan tests."
+    },
+    {
+      "id": 26,
+      "name": "BUG-HUNTER",
+      "role": "Debug",
+      "mission": "Reproduksi error, root cause, perbaikan minimal dan regression test."
+    },
+    {
+      "id": 27,
+      "name": "QA-TESTER",
+      "role": "QA",
+      "mission": "Test plan, negative cases, automation tests dan laporan coverage."
+    },
+    {
+      "id": 28,
+      "name": "CYBER-GUARD",
+      "role": "Security",
+      "mission": "Audit defensif dependency, config, auth dan exposure; jangan eksploitasi tanpa izin."
+    },
+    {
+      "id": 29,
+      "name": "DEVOPS-CAPTAIN",
+      "role": "DevOps",
+      "mission": "Rancang deployment, CI/CD, rollback dan health checks."
+    },
+    {
+      "id": 30,
+      "name": "VPS-GUARDIAN",
+      "role": "VPS monitoring",
+      "mission": "Baca CPU/RAM/disk/log, identifikasi risiko tanpa mengubah host sembarangan."
+    },
+    {
+      "id": 31,
+      "name": "AI-ENGINEER",
+      "role": "AI APIs",
+      "mission": "Rancang pemilihan model, fallback, evaluasi biaya dan API adapter."
+    },
+    {
+      "id": 32,
+      "name": "PROMPT-WIZARD",
+      "role": "Prompt engineering",
+      "mission": "Rancang prompt, test case, penilaian output dan perbaikan iteratif."
+    },
+    {
+      "id": 33,
+      "name": "AUTO-PILOT",
+      "role": "Automation",
+      "mission": "Desain cron/automation yang idempotent, aman, dapat dipantau."
+    },
+    {
+      "id": 34,
+      "name": "DATA-ANALYST",
+      "role": "Data",
+      "mission": "Bersihkan data, hitung metrik dengan sumber nyata dan visualisasi."
+    },
+    {
+      "id": 35,
+      "name": "RESEARCH-MIND",
+      "role": "Riset",
+      "mission": "Verifikasi sumber dan bedakan fakta, ketidakpastian, asumsi."
+    },
+    {
+      "id": 36,
+      "name": "SEO-BOOSTER",
+      "role": "SEO",
+      "mission": "Riset keyword dan optimasi SEO konten/video tanpa spam."
+    },
+    {
+      "id": 37,
+      "name": "BRAND-MAKER",
+      "role": "Branding",
+      "mission": "Buat positioning, tone of voice, kampanye dan guideline."
+    },
+    {
+      "id": 38,
+      "name": "BUSINESS-BRAIN",
+      "role": "Strategi bisnis",
+      "mission": "Analisis unit economics, ide monetisasi dan risiko."
+    },
+    {
+      "id": 39,
+      "name": "GITHUB-PILOT",
+      "role": "GitHub",
+      "mission": "Rencanakan issue, branch, PR, review dan changelog; jangan push tanpa izin."
+    },
+    {
+      "id": 40,
+      "name": "DAILY-REPORTER",
+      "role": "Laporan",
+      "mission": "Gabungkan hasil agent, link artefak, risiko dan langkah berikut."
+    }
+  ],
+  "skills": [
+    {
+      "name": "content-idea-factory",
+      "description": "Menyusun ide konten dengan audiens, format, hook, prioritas."
+    },
+    {
+      "name": "viral-content-research",
+      "description": "Riset konten populer dengan sumber mutakhir."
+    },
+    {
+      "name": "script-storytelling",
+      "description": "Membuat skrip cerita dan video dengan durasi."
+    },
+    {
+      "name": "voice-narration",
+      "description": "Menyiapkan naskah narasi bahasa Indonesia."
+    },
+    {
+      "name": "tts-production",
+      "description": "Membuat audio narasi dengan penyedia TTS yang tersedia."
+    },
+    {
+      "name": "video-storyboard",
+      "description": "Membuat storyboard video vertikal/horizontal."
+    },
+    {
+      "name": "video-render",
+      "description": "Menggabungkan aset video memakai FFmpeg."
+    },
+    {
+      "name": "thumbnail-design",
+      "description": "Mendesain konsep thumbnail dan prompt visual."
+    },
+    {
+      "name": "youtube-seo",
+      "description": "Optimasi metadata YouTube."
+    },
+    {
+      "name": "social-calendar",
+      "description": "Kalender konten dan posting."
+    },
+    {
+      "name": "coding-idea-lab",
+      "description": "Membuat ide proyek coding."
+    },
+    {
+      "name": "fullstack-builder",
+      "description": "Membangun aplikasi end to end."
+    },
+    {
+      "name": "code-review-repair",
+      "description": "Debugging dan code review."
+    },
+    {
+      "name": "bot-development",
+      "description": "Mengembangkan bot via API resmi."
+    },
+    {
+      "name": "api-integration",
+      "description": "Integrasi API eksternal dan AI."
+    },
+    {
+      "name": "automation-workflows",
+      "description": "Workflow dan cron terjadwal."
+    },
+    {
+      "name": "server-health",
+      "description": "Diagnostik kesehatan Ubuntu VPS."
+    },
+    {
+      "name": "security-audit",
+      "description": "Audit konfigurasi defensif."
+    },
+    {
+      "name": "research-verification",
+      "description": "Verifikasi informasi publik."
+    },
+    {
+      "name": "release-quality",
+      "description": "QA dan rilis aplikasi."
+    }
+  ]
+}
